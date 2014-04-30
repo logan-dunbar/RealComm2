@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dataCaptureLayout"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/tagNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tag Name" >
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/startButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Start Capturing" />
+
+        <Button
+            android:id="@+id/stopButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/startButton"
+            android:text="Stop Capturing"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/dumpButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/stopButton"
+            android:text="Dump DB" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dataCaptureTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Data capture details..."
+        android:scrollbars="vertical"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

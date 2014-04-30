@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- App -->
+    <string name="app_name">realcomm2</string>
+
+    <!-- Menu -->
+    <string name="updateMenuItemTitle">Update</string>
+    <string name="settingsMenuItemTitle">Settings</string>
+    
+    <!-- EditTexts -->
+    <string name="boothFilterHint">Filter by name or number</string>
+
+    <!-- Buttons -->
+    <string name="button1Text">Start AsyncTask</string>
+    <string name="button2Text">Cancel AsyncTask</string>
+    <string name="boothFragmentViewProfileButtonText">VIEW PROFILE</string>
+
+    <!-- Labels -->
+    <string name="goToListingText">Go To Listing</string>
+    <string name="getServiceMessageText">Get Service Message</string>
+    <string name="boothListViewHeaderText">Booths</string>
+    <string name="lastUpdateLabel">Last Update:</string>
+    <string name="lastUpdateInitialValue">N/A</string>
+    <string name="proximityLabel">Proximity Sensing:</string>
+    <string name="exhibitionAreaHeader">EXHIBITION AREA</string>
+
+    <!-- Preferences -->
+    <string name="enableProximityTitle">Enable Proximity Sensing</string>
+    <string name="enableProximitySummary">Toggle to enable or disable bluetooth proximity sensing.</string>
+
+    <!-- Image Content Descriptions -->
+    <string name="logoImageDescription">Company Logo</string>
+    <string name="contactImageDescription">Contact</string>
+    <string name="proximityImageDescription">Proximity Graphic</string>
+
+</resources>

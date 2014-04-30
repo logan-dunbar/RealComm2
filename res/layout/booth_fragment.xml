@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/defaultMargin"
+    android:background="@drawable/rounded_booth_header" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/boothHeaderHeight"
+        android:background="@drawable/rounded_booth_background"
+        android:paddingLeft="@dimen/defaultPadding"
+        android:paddingRight="@dimen/defaultPadding"
+        android:paddingTop="@dimen/logoSpacingTop" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/viewProfileButtonLayout"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/boothFragmentHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/textSizeBiggest"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/boothFragmentSubHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/textSizeBig"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/boothFragmentDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/boothDetailsMargin"
+                android:layout_marginRight="@dimen/boothDetailsMargin"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="5"
+                android:textSize="@dimen/textSizeMedium"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/viewProfileButtonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/viewProfileButtonSpacing"
+            android:paddingTop="@dimen/viewProfileButtonSpacing" >
+
+            <Button
+                android:id="@+id/boothFragmentViewProfileButton"
+                android:layout_width="@dimen/viewProfileButtonWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_corners"
+                android:text="@string/boothFragmentViewProfileButtonText"
+                android:textColor="@color/white" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/boothFragmentLogo"
+        android:layout_width="@dimen/logoWidth"
+        android:layout_height="@dimen/logoHeight"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/logoSpacingTop"
+        android:background="@drawable/rounded_logo"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/logoImageDescription" />
+
+    <TextView
+        android:id="@+id/accuracyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right" />
+
+</FrameLayout>

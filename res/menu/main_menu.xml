@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:realcomm="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/dataCaptureMenuItem"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Data Capture"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/settingsMenuItem"
+        android:icon="@drawable/ic_menu_settings"
+        android:title="@string/settingsMenuItemTitle"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/refreshMenuItem"
+        android:icon="@drawable/ic_menu_refresh_grey"
+        android:title="@string/updateMenuItemTitle"
+        android:showAsAction="ifRoom"/>
+
+</menu>

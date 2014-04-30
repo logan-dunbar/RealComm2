@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="listingFragmentMargin">5dp</dimen>
+    <dimen name="defaultCornerRadius">8dp</dimen>
+    <dimen name="defaultPadding">10dp</dimen>
+    <dimen name="defaultMargin">10dp</dimen>
+    <dimen name="listItemHeight">50dp</dimen>
+    <dimen name="logoHeight">50dp</dimen>
+    <dimen name="logoWidth">150dp</dimen>
+    <dimen name="logoSpacingTop">15dp</dimen>
+    <dimen name="boothHeaderHeight">50dp</dimen>
+    <dimen name="viewProfileButtonSpacing">15dp</dimen>
+    <dimen name="viewProfileButtonWidth">150dp</dimen>
+    <dimen name="boothDetailsMargin">20dp</dimen>
+    <dimen name="circleDiameter">25dp</dimen>
+    <dimen name="circlePadding">10dp</dimen>
+    <dimen name="countCircleDiameter">40dp</dimen>
+    
+    <dimen name="textSizeBiggest">30sp</dimen>
+    <dimen name="textSizeBig">20sp</dimen>
+    <dimen name="textSizeMedium">18sp</dimen>
+    <dimen name="textSizeSmall">15sp</dimen>
+    
+    <dimen name="defaultCompoundDrawablePadding">10dp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="booth_flip_animation_half">150</integer>
+    <integer name="booth_flip_animation_full">300</integer>
+    
+    <integer name="customViewFragmentSeedId">1000</integer>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.openbox.realcomm2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/defaultMargin"
+    android:background="@drawable/rounded_booth_header"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/boothHeaderHeight"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true" >
+
+        <com.openbox.realcomm2.controls.ClearableEditText
+            android:id="@+id/boothFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/icon_search"
+            android:hint="@string/boothFilterHint"
+            android:inputType="textCapWords|textNoSuggestions"
+            android:textColor="@color/opaque_blue"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/textSizeBig"
+            android:imeOptions="actionDone"
+            custom:clearable="true" >
+        </com.openbox.realcomm2.controls.ClearableEditText>
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/boothListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_booth_background" >
+    </ListView>
+
+</LinearLayout>
