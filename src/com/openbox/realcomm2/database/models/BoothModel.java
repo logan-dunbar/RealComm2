@@ -4,7 +4,6 @@ import java.util.LinkedList;
 
 import android.content.res.Resources;
 
-import com.openbox.realcomm2.R;
 import com.openbox.realcomm2.database.objects.Booth;
 import com.openbox.realcomm2.utilities.enums.ProximityRegion;
 import com.radiusnetworks.ibeacon.IBeacon;

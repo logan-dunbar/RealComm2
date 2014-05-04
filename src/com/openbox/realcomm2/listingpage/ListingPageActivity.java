@@ -34,6 +34,8 @@ import com.openbox.realcomm2.database.models.BoothModel;
 import com.openbox.realcomm2.database.models.BoothViewModel;
 import com.openbox.realcomm2.database.models.TalkDayModel;
 import com.openbox.realcomm2.database.models.VenueModel;
+import com.openbox.realcomm2.database.objects.Company;
+import com.openbox.realcomm2.profilepage.ProfilePageActivity;
 import com.openbox.realcomm2.utilities.enums.AppMode;
 import com.openbox.realcomm2.utilities.enums.BeaconStatus;
 import com.openbox.realcomm2.utilities.enums.BoothDataFragmentStatus;
@@ -826,6 +828,12 @@ public class ListingPageActivity extends BaseActivity implements
 	public void goToProfilePage(int companyId)
 	{
 		ToastHelper.showShortMessage(this, "Going to companyId=" + companyId);
+		
+		Intent intent = new Intent(this, ProfilePageActivity.class);
+		Bundle extras = new Bundle();
+		extras.putInt(Company.COMPANY_ID_COLUMN_NAME, companyId);
+		intent.putExtras(extras);
+		startActivity(intent);
 	}
 
 	/**

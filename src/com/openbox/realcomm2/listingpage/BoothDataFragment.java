@@ -33,7 +33,7 @@ public class BoothDataFragment extends Fragment implements BoothDataInterface
 
 	private BoothDataChangedCallbacks dataChangedlistener;
 
-	private List<BoothViewModel> boothViewModelArray;
+	private List<BoothViewModel> boothViewModelArray = new ArrayList<>();
 
 	private BoothDataFragmentStatus currentStatus;
 

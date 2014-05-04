@@ -16,6 +16,8 @@
     <dimen name="circlePadding">10dp</dimen>
     <dimen name="countCircleDiameter">40dp</dimen>
     
+    <dimen name="defaultProfilePadding">30dp</dimen>
+    
     <dimen name="textSizeBiggest">30sp</dimen>
     <dimen name="textSizeBig">20sp</dimen>
     <dimen name="textSizeMedium">18sp</dimen>

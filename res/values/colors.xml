@@ -13,4 +13,6 @@
     <color name="orange">#FFFF6600</color>
     <color name="blue">#FF0096FF</color>
     <color name="light_grey">#FF6F7275</color>
+    <color name="border_grey">#FF8A9DAA</color>
+    <color name="opaque_black">#80000000</color>
 </resources>

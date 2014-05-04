@@ -4,6 +4,7 @@ import com.openbox.realcomm2.R;
 import com.openbox.realcomm2.utilities.interfaces.AppModeChangedCallbacks;
 import com.openbox.realcomm2.utilities.interfaces.BoothDataChangedCallbacks;
 import com.openbox.realcomm2.utilities.interfaces.ScheduleDataChangedCallbacks;
+
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
